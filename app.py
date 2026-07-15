@@ -5,6 +5,7 @@
 
 
 import cv2
+import opencv
 
 # Load face cascade from OpenCV's built-in data
 face_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + "haarcascade_frontalface_default.xml")
